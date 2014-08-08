@@ -1,0 +1,32 @@
+{
+	"name" : "sas-irad/person-info-bundle",
+	"type" : "library",
+	"description" : "Base PersonInfoInterface and simple implementation",
+	"keywords" : [
+		"symfony",
+		"irad",
+		"personinfo",
+		"pennkey",
+		"penn_id"
+	],
+	"homepage" : "http://www.sas.upenn.edu",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Roberto Mansfield",
+			"email" : "robertom@sas.upenn.edu"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.2"
+	},
+	"minimum-stability" : "stable",
+	"autoload" : {
+		"psr-4" : {
+			"SAS\\IRAD\\PersonInfoBundle\\" : ""
+		}
+	},
+	"repositories" : [{
+			"type" : "vcs",
+			"url" : "https://github.com/sas-irad/person-info-bundle"
+		}]
+}
